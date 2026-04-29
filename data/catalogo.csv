@@ -1,0 +1,13 @@
+id,equipo,liga,pais,color_principal,tallas_disponibles,precio_clp,stock,temporada
+1,Real Madrid,La Liga,España,Blanco,"S,M,L,XL",29990,15,2024/25
+2,FC Barcelona,La Liga,España,Azul y Rojo,"S,M,L,XL,XXL",31990,8,2024/25
+3,Manchester City,Premier League,Inglaterra,Celeste,"M,L,XL",34990,12,2024/25
+4,Manchester United,Premier League,Inglaterra,Rojo,"S,M,L",32990,6,2024/25
+5,Liverpool FC,Premier League,Inglaterra,Rojo,"S,M,L,XL",33990,10,2024/25
+6,Juventus,Serie A,Italia,Negro y Blanco,"M,L,XL,XXL",28990,9,2024/25
+7,PSG,Ligue 1,Francia,Azul Marino,"S,M,L,XL",35990,7,2024/25
+8,Bayern Munich,Bundesliga,Alemania,Rojo,"S,M,L,XL",30990,11,2024/25
+9,Atletico Madrid,La Liga,España,Rojo y Blanco,"M,L,XL",27990,14,2024/25
+10,Chelsea FC,Premier League,Inglaterra,Azul,"S,M,L",31990,5,2024/25
+11,Arsenal FC,Premier League,Inglaterra,Rojo,"S,M,L,XL",32990,8,2024/25
+12,Borussia Dortmund,Bundesliga,Alemania,Amarillo,"M,L,XL,XXL",29990,13,2024/25
