@@ -1,13 +1,57 @@
-id,equipo,liga,pais,color_principal,tallas_disponibles,precio_clp,stock,temporada
-1,Real Madrid,La Liga,España,Blanco,"S,M,L,XL",29990,15,2024/25
-2,FC Barcelona,La Liga,España,Azul y Rojo,"S,M,L,XL,XXL",31990,8,2024/25
-3,Manchester City,Premier League,Inglaterra,Celeste,"M,L,XL",34990,12,2024/25
-4,Manchester United,Premier League,Inglaterra,Rojo,"S,M,L",32990,6,2024/25
-5,Liverpool FC,Premier League,Inglaterra,Rojo,"S,M,L,XL",33990,10,2024/25
-6,Juventus,Serie A,Italia,Negro y Blanco,"M,L,XL,XXL",28990,9,2024/25
-7,PSG,Ligue 1,Francia,Azul Marino,"S,M,L,XL",35990,7,2024/25
-8,Bayern Munich,Bundesliga,Alemania,Rojo,"S,M,L,XL",30990,11,2024/25
-9,Atletico Madrid,La Liga,España,Rojo y Blanco,"M,L,XL",27990,14,2024/25
-10,Chelsea FC,Premier League,Inglaterra,Azul,"S,M,L",31990,5,2024/25
-11,Arsenal FC,Premier League,Inglaterra,Rojo,"S,M,L,XL",32990,8,2024/25
-12,Borussia Dortmund,Bundesliga,Alemania,Amarillo,"M,L,XL,XXL",29990,13,2024/25
+id,equipo,liga,pais,producto,jugador,color,tipo,tallas_disponibles,stock_S,stock_M,stock_L,stock_XL,precio_clp,temporada
+1,Universidad de Chile,Primera División,Chile,Camiseta,Aránguiz,Azul,Manga Larga,"S,M,L,XL",14,11,12,11,22000,2026
+2,Universidad de Chile,Primera División,Chile,Camiseta,Vargas,Azul,Manga Larga,"S,M,L,XL",11,11,11,12,22000,2026
+3,Universidad de Chile,Primera División,Chile,Camiseta,Aránguiz,Azul,Manga Corta,"S,M,L,XL",12,11,11,12,20000,2026
+4,Universidad de Chile,Primera División,Chile,Camiseta,Aránguiz,Blanca,Alternativa Manga Corta,"S,M,L,XL",11,11,11,11,20000,2026
+5,Universidad de Chile,Primera División,Chile,Camiseta,Vargas,Blanca,Alternativa Manga Corta,"S,M,L,XL",11,11,11,11,20000,2026
+6,Universidad de Chile,Primera División,Chile,Camiseta Retro,Rivarola,Roja,2001,"S,M,L,XL",13,12,11,13,20000,2001
+7,Universidad de Chile,Primera División,Chile,Camiseta Retro,,Azul,2001,"S,M,L,XL",11,11,11,11,20000,2001
+8,Universidad de Chile,Primera División,Chile,Camiseta Retro,Marcelo Salas,Azul,1996,"S,M,L,XL",11,11,12,11,20000,1996
+9,Universidad de Chile,Primera División,Chile,Camiseta Retro,Rodríguez,Azul,1996,"S,M,L,XL",11,12,11,11,20000,1996
+10,Universidad de Chile,Primera División,Chile,Camiseta Retro,Salas,Roja,2006,"S,M,L,XL",11,12,12,12,20000,2006
+11,Universidad de Chile,Primera División,Chile,Camiseta Retro,Salas,Azul,1994 Manga Larga,"S,M,L,XL",11,11,11,11,22000,1994
+12,Universidad de Chile,Primera División,Chile,Camiseta Retro,,Azul,1990,"S,M,L,XL",11,11,11,11,20000,1990
+13,Universidad de Chile,Primera División,Chile,Camiseta Entrenamiento,,Azul,2026,"S,M,L,XL",11,11,11,11,20000,2026
+14,Universidad de Chile,Primera División,Chile,Camiseta Pre Match,,Azul,2026,"S,M,L,XL",11,11,11,11,20000,2026
+15,Colo-Colo,Primera División,Chile,Camiseta,Correa,Negra,2026 Manga Larga,"S,M,L,XL",11,11,11,12,22000,2026
+16,Colo-Colo,Primera División,Chile,Camiseta,Aquino,Negra,2026 Manga Larga,"S,M,L,XL",11,11,11,11,22000,2026
+17,Colo-Colo,Primera División,Chile,Camiseta,Correa,Negra,2026 Manga Corta,"S,M,L,XL",13,13,11,11,20000,2026
+18,Colo-Colo,Primera División,Chile,Camiseta,Aquino,Negra,2026 Manga Corta,"S,M,L,XL",11,11,13,13,20000,2026
+19,Colo-Colo,Primera División,Chile,Camiseta,Fernández,Blanca,2026,"S,M,L,XL",12,11,11,12,20000,2026
+20,Colo-Colo,Primera División,Chile,Camiseta,Correa,Blanca,2026,"S,M,L,XL",11,12,12,11,20000,2026
+21,Colo-Colo,Primera División,Chile,Camiseta,Romero,Blanca,2026,"S,M,L,XL",11,11,11,11,20000,2026
+22,Colo-Colo,Primera División,Chile,Camiseta Retro,,Negra,1991 Visita,"S,M,L,XL",13,13,11,11,20000,1991
+23,Colo-Colo,Primera División,Chile,Camiseta Retro,,Blanca,1991 Local,"S,M,L,XL",13,11,12,12,20000,1991
+24,Colo-Colo,Primera División,Chile,Camiseta Retro,Matías Fernández,Blanca,2006,"S,M,L,XL",12,11,12,12,20000,2006
+25,Colo-Colo,Primera División,Chile,Camiseta Retro,Matías Fernández,Negra,2005,"S,M,L,XL",11,11,11,11,20000,2005
+26,Colo-Colo,Primera División,Chile,Camiseta Retro,Esteban Paredes,Negra,2014,"S,M,L,XL",11,11,11,11,20000,2014
+27,Colo-Colo,Primera División,Chile,Camiseta,Blanca,Blanca,Manga Larga,"S,M,L,XL",11,11,11,11,22000,2026
+28,Colo-Colo,Primera División,Chile,Camiseta Entrenamiento,,Blanca,2026,"S,M,L,XL",12,12,12,12,20000,2026
+29,Colo-Colo,Primera División,Chile,Camiseta Pre Match,,Blanca,2026,"S,M,L,XL",11,11,11,11,20000,2026
+30,Colo-Colo,Primera División,Chile,Buzo Oficial,,Blanca,Oficial,"S,M,L,XL",12,11,11,11,35000,2026
+31,Colo-Colo,Primera División,Chile,Buzo Entrenamiento,,Blanca,Medio Cierre,"S,M,L,XL",11,11,11,11,35000,2026
+32,Universidad Católica,Primera División,Chile,Camiseta,Zampedri,Blanca,2026,"S,M,L,XL",11,11,11,11,20000,2026
+33,Universidad Católica,Primera División,Chile,Camiseta,Zampedri,Blanca,2025 Claro Arena,"S,M,L,XL",11,11,11,11,20000,2025
+34,Universidad Católica,Primera División,Chile,Camiseta Retro,,Blanca,1990,"S,M,L,XL",11,11,11,11,20000,1990
+35,Manchester United,Premier League,Inglaterra,Camiseta Retro,Cristiano Ronaldo,Negra,2008 Manga Larga,"S,M,L,XL",11,12,12,11,22000,2008
+36,Manchester United,Premier League,Inglaterra,Camiseta Retro,Cristiano Ronaldo,Roja,2008 Manga Larga,"S,M,L,XL",11,13,11,11,22000,2008
+37,Manchester United,Premier League,Inglaterra,Camiseta Retro,Cristiano Ronaldo,Negra,2008 Manga Corta,"S,M,L,XL",11,11,12,11,20000,2008
+38,Manchester United,Premier League,Inglaterra,Camiseta,Actual,Roja,2026,"S,M,L,XL",11,11,11,11,20000,2026
+39,Real Madrid,La Liga,España,Camiseta,Mbappé,Blanca,2026,"S,M,L,XL",11,11,11,11,20000,2026
+40,Real Madrid,La Liga,España,Camiseta,Mbappé,Azul,2026,"S,M,L,XL",11,11,11,11,20000,2026
+41,Real Madrid,La Liga,España,Camiseta,Vinícius Jr,Blanca,2026,"S,M,L,XL",11,11,11,11,20000,2026
+42,Real Madrid,La Liga,España,Camiseta,Bellingham,Blanca,2026,"S,M,L,XL",11,11,11,11,20000,2026
+43,Real Madrid,La Liga,España,Camiseta Retro,Cristiano Ronaldo,Negra,2013,"S,M,L,XL",11,11,11,11,20000,2013
+44,Barcelona,La Liga,España,Camiseta,Raphinha,Azul y Rojo,2026,"S,M,L,XL",11,11,11,11,20000,2026
+45,Barcelona,La Liga,España,Camiseta,Lamine Yamal,Azul y Rojo,2026,"S,M,L,XL",11,11,11,11,20000,2026
+46,Barcelona,La Liga,España,Camiseta,Lamine Yamal,Beige,2026 Alternativa,"S,M,L,XL",11,11,11,11,20000,2026
+47,Sevilla,La Liga,España,Camiseta,Alexis Sánchez,Negra,2026,"S,M,L,XL",11,11,11,11,20000,2026
+48,Sevilla,La Liga,España,Camiseta,Alexis Sánchez,Roja,2026,"S,M,L,XL",11,11,11,11,20000,2026
+49,Chelsea,Premier League,Inglaterra,Camiseta,Cole Palmer,Azul,2026,"S,M,L,XL",11,11,11,11,20000,2026
+50,AC Milan,Serie A,Italia,Camiseta Retro,Kaká,Roja y Negra,2008,"S,M,L,XL",11,11,11,11,20000,2008
+51,Manchester City,Premier League,Inglaterra,Camiseta,Haaland,Negra,2026,"S,M,L,XL",11,11,11,11,20000,2026
+52,Bayern Múnich,Bundesliga,Alemania,Camiseta,Harry Kane,Roja,2026,"S,M,L,XL",11,11,11,11,20000,2026
+53,PSG,Ligue 1,Francia,Camiseta,Dembélé,Azul Marino,2026,"S,M,L,XL",11,11,11,11,20000,2026
+54,Arsenal,Premier League,Inglaterra,Camiseta,Bukayo Saka,Roja,2026,"S,M,L,XL",11,11,11,11,20000,2026
+55,Santos,Série A,Brasil,Camiseta,Neymar Jr,Blanca,2026,"S,M,L,XL",11,11,11,11,20000,2026
+56,River Plate,Liga Profesional,Argentina,Camiseta Retro,Marcelo Salas,Blanca,2007,"S,M,L,XL",11,11,11,11,20000,2007
