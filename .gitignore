@@ -1,8 +1,52 @@
-.env
-chroma_db/
-__pycache__/
-*.pyc
+# --- Entornos Virtuales ---
+.venv311/
 .venv/
 venv/
+ENV/
+env/
+# Comodín profesional: ignora cualquier carpeta que empiece con .venv (ej: .venv312, .venv-env)
+.venv*/
+
+# --- Variables de Entorno y Configuración Secreta ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Base de datos local (ChromaDB / RAG) ---
+chroma_db/
+
+# --- Caché de Python y Compilados ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
 *.egg-info/
+.installed.cfg
+*.egg
+
+# --- Configuraciones del Editor de Código (VS Code / JetBrains) ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Archivos del Sistema Operativo ---
 .DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
